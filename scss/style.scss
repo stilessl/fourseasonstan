@@ -424,10 +424,16 @@ h2 {
 		align-items: center;
 	}
 	&__image {
-		flex-shrink: 0;
+		margin-left: 1rem;
+		width: 25%;
+		@include at-break($break--small) {
+			flex-shrink: 0;
+			margin-left: 2rem;
+		}
 	}
 
 	&__description {
+		width: 75%;
 		& > * + * {
 			margin-top: 0.5rem;
 		}
