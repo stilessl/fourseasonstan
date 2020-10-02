@@ -214,6 +214,14 @@ h2 {
 	background-color: $cYellowLight;
 	margin: 0 auto;
 
+	h2 {
+		text-align: center;
+
+		@include at-break($break--small) {
+			text-align: left;
+		}
+	}
+
 	h3 {
 		font-size: 1.25rem;
 		margin-top: 1rem;
@@ -233,13 +241,14 @@ h2 {
 	}
 
 	&__inner {
-		display: flex;
 		max-width: 700px;
 		margin: 0 auto;
 
-		& > * + * {
-			margin-left: 2rem;
+		@include at-break($break--small) {
+			display: flex; 
+		}
 
+		& > * + * {
 			@include at-break($break--small) {
 				margin-left: 4rem;
 			}
