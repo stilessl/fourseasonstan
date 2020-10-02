@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "32186",
 "files": {
+	"/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/CNAME",
+		"oF": 0
+		},
 	"/coupons/october-2020.pdf": {
 		"cB": 0,
 		"ft": 8192,
@@ -27,6 +35,17 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/images/beachtan-dock.jpg": {
+		"ft": 16384,
+		"iS": 58637,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/beachtan-dock.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/beachtan-dock.png": {
 		"ft": 32768,
 		"iS": 350032,
@@ -36,6 +55,17 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/images/beachtan-palm-tree.jpg": {
+		"ft": 16384,
+		"iS": 149482,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/beachtan-palm-tree.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/beachtan-palm-tree.png": {
@@ -49,6 +79,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/beachtan-person.jpg": {
+		"ft": 16384,
+		"iS": 35490,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/beachtan-person.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/beachtan-person.png": {
 		"ft": 32768,
 		"iS": 258144,
@@ -58,6 +99,17 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/images/beachtan-sunglasses.jpg": {
+		"ft": 16384,
+		"iS": 60164,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/beachtan-sunglasses.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/beachtan-sunglasses.png": {
@@ -71,6 +123,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/beachtan-walkway.jpg": {
+		"ft": 16384,
+		"iS": 83119,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/beachtan-walkway.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/beachtan-walkway.png": {
 		"ft": 32768,
 		"iS": 434263,
@@ -80,6 +143,17 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/images/beachtan.jpg": {
+		"ft": 16384,
+		"iS": 75685,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/beachtan.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/beachtan.png": {
@@ -201,6 +275,17 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/images/palmtrees.jpg": {
+		"ft": 16384,
+		"iS": 81930,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/palmtrees.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/palmtrees.png": {
