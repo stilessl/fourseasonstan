@@ -43,7 +43,7 @@
 		"oAP": "/images/beachtan-dock.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/beachtan-dock.png": {
@@ -65,7 +65,7 @@
 		"oAP": "/images/beachtan-palm-tree.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/beachtan-palm-tree.png": {
@@ -87,7 +87,7 @@
 		"oAP": "/images/beachtan-person.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/beachtan-person.png": {
@@ -109,7 +109,7 @@
 		"oAP": "/images/beachtan-sunglasses.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/beachtan-sunglasses.png": {
@@ -131,7 +131,7 @@
 		"oAP": "/images/beachtan-walkway.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/beachtan-walkway.png": {
@@ -153,7 +153,7 @@
 		"oAP": "/images/beachtan.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/beachtan.png": {
