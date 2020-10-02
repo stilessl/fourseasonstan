@@ -1,0 +1,33 @@
+@import 'variables.scss';
+
+.bg {
+	&--river {
+		background-color: $cRiver;
+	}
+	&--riverdark {
+		background-color: $cRiverDark;
+	}	
+	&--salmon {
+		background-color: $cSalmon;
+	}
+	&--blush {
+		background-color: $cBlush;
+	}
+	&--fountain {
+		background-color: $cFountain;
+	}
+	&--paper {
+		background-color: $cPaper;
+	}
+}
+
+
+.accent {
+	&--river {
+		color: $cRiver;
+	}
+
+	&--salmon {
+		color: $cSalmon;
+	}
+}

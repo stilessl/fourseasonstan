@@ -1,0 +1,489 @@
+
+p {
+	font-weight: 400;
+	line-height: 1.4rem;
+}
+
+h3 {
+	font-family: $fontTeriary;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+h2 {
+	font-family: $fontSecondary;
+	font-size: 3.5rem;
+	color: $cPink;	
+}
+
+.header {
+	background-color: #fff;
+	position: sticky;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 1000;
+
+	&__nav-list {
+		display: flex;
+		justify-content: center;
+		font-weight: 500;
+	}
+
+	&__nav-list-item {
+		display: flex;
+		font-family: $fontSecondary;
+		font-size: 1.5rem;
+
+		a {
+			padding: 1rem 2rem;
+		}
+
+		a:hover {
+			background-color: $cPink;
+			color: #fff;
+		}
+	}
+
+	&__inner {
+		max-width: $maxWidth;
+		margin: 0 auto;
+	}
+
+}
+
+
+.branding {
+	text-align: center;
+
+
+	&__logo {
+		font-size: 3.5rem;
+		color: #EA008C;
+		letter-spacing: -0.1rem;
+		font-style: italic;
+		font-family: $fontSecondary;
+	}
+
+	&__subhead {
+		margin-top: 1rem;
+		font-family: $fontTeriary;
+		font-size: 2.25rem;
+		line-height: 2.5rem;
+		display: inline-block;
+		text-transform: uppercase;
+		font-weight: 500;
+	}
+}
+
+.hero {
+	display: flex;
+	background-color: #C9EAF0;
+	margin: 0 auto;
+
+	&__inner {
+		max-width: 87.5rem;
+	}
+
+	&__left {
+		width: 65%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 1rem;
+		position: relative;
+
+		&::before {
+		  content: "";
+		  position: absolute;
+		  top: 0; 
+		  left: 0;
+		  width: 100%;
+		  height: 100%;
+		  opacity: .15; 
+		  background-image: url(/images/palmtrees.png);
+		  background-size: cover;
+		}
+	}
+	&__content {
+		z-index: 100;
+	}
+
+	&__right {
+		width: 35%;
+		display: flex;
+		flex-wrap: wrap;
+
+		img {
+			width: 50%;
+			flex-shrink: 0;
+			flex-grow: 0;
+		}
+	}
+
+	&__button-list {
+		display: flex;
+		margin-top: 2.5rem;
+
+		& > * + * {
+			margin-left: 1rem;
+		}
+	}
+
+	&__content {
+		max-width: 620px;
+	}
+
+}
+
+.image-group {
+	display: flex;
+}
+
+
+.about {
+	background-color: $cYellowLight;
+	margin: 0 auto;
+
+	h3 {
+		font-family: $fontTeriary;
+		font-weight: 500;
+		font-size: 1.625rem;
+		margin-top: 1rem;
+	}
+
+	&__info {
+		font-weight: 400;
+		line-height: 1.4rem;
+	}
+
+	&__intro {
+		display: flex;
+	}
+
+	&__inner {
+		padding: 4rem 1rem;
+		display: flex;
+		max-width: 700px;
+		margin: 0 auto;
+
+		& > * + * {
+			margin-left: 4rem;
+		}
+	}
+
+	&__right {
+		& > * + * {
+			margin-top: 2rem;
+		}
+	}
+
+}
+
+.packages {
+	background-color: #000;
+	color: #fff;
+	margin: 0 auto;
+
+	&__inner {
+		padding: 4rem 1rem;
+		max-width: 45.375rem;
+		margin: 0 auto;
+
+		& > * + * {
+			margin-top: 2rem;
+			padding-top: 2rem;
+			border-top: 1px solid $cPink;
+		}
+	}
+
+	h2 {
+		font-family: $fontSecondary;
+		font-size: 3.5rem;
+		color: $cPink;
+		text-align: center;
+	}
+
+	&__group {
+		background-color: $cBlue;
+		padding: 2rem;
+		color: #000;
+		margin-top: 1rem;
+		border-radius: 10px;
+
+		h3 {
+			margin-bottom: 1rem;
+		}
+	}
+
+	&__table {
+		font-weight: 500;
+		width: 100%;
+
+		td {
+			padding: 0.35rem 0;
+		}
+
+		th {
+			padding: 0.35rem 0;
+		}
+	}
+	h3 + p {
+		margin-top: 0.5rem;
+	}
+}
+
+.two-rows {
+	td {width: 50%;}
+}
+
+.table-text {
+	margin-top: 0.5rem;
+}
+
+.supporting-text {
+	&--margin-top {
+		margin-top: 0.5rem;
+	}
+	font-style: italic;
+}
+
+
+.intro-paragraph {
+	& > * + * {
+		margin-top: 1rem;
+	}
+
+	border-top: 1px solid $cPink;
+	padding-top: 2rem;
+	margin-top: 2rem;
+
+	h3 {
+		font-family: $fontTeriary;
+		font-weight: 500;
+		font-size: 1.5rem;
+		margin-top: 1rem;
+	}
+}
+
+.button {
+	padding: 1.25rem 1.5rem;
+	background-color: $cYellow;
+	text-transform: uppercase;
+	font-family: $fontTeriary;
+	font-size: 1.25rem;
+	display: inline-block;
+	font-weight: 500;
+
+	&--secondary {
+		background-color: $cPink;
+		color: #fff;
+
+		&:hover {
+			background-color: #fff;
+		}
+	}
+
+	&:hover {
+		background-color: $cPink;
+		color: #fff;
+	}
+}
+
+.new-customer {
+	margin: 0 auto;
+	margin-top: 1rem;
+}
+
+
+
+.equipment {
+
+	h2 {
+		font-family: $fontSecondary;
+		font-size: 3.5rem;
+		color: $cPink;
+		text-align: center;
+	}
+
+	background-color: #fff;
+
+	&__inner {
+		padding: 4rem 1rem;
+		max-width: 45.375rem;
+		margin: 0 auto;
+	}
+
+	&__list {
+		border-top: 1px solid $cPink;
+		margin-top: 2rem;
+		padding-top: 2rem;
+
+		& > * + * {
+			margin-top: 2rem;
+		}
+	}
+
+	&__list-item {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__image {
+		flex-shrink: 0;
+	}
+
+	&__description {
+		& > * + * {
+			margin-top: 0.5rem;
+		}
+	}
+}
+
+.locations {
+	background-color: $cBlue;
+
+	&__inner {
+		padding: 4rem 1rem;
+		margin: 0 auto;
+		max-width: 1000px;
+	}
+
+	&__maps {
+		overflow: hidden;
+		border-top: 1px solid #73CAD2;
+		margin-top: 2rem;
+		padding-top: 2rem;
+	}
+
+	h2 {
+		color: #000;
+	}
+
+	&__heading {
+		text-align: center;
+	}
+
+	&__left {
+		float: left;
+		width: 48%;
+	}
+
+	&__right {
+		float: right;
+		width: 50%;
+		border-left: 1px solid #73CAD2;
+		padding-left: 2%;
+
+	}
+	&__hours h4 {
+		margin-bottom: 0.25rem;
+	}
+	&__list {
+		font-weight: 400;
+		& > * + *  {
+			margin-top: 0.25rem;
+		}
+	}
+	&__address-hours {
+		display: flex;
+		margin-top: 1rem;
+
+		& > * {
+			width: 50%;
+		}
+	}
+}
+
+
+.google-maps {
+	margin-top: 2rem;
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.google-maps iframe {
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+
+.footer {
+	padding: 2rem;
+	font-size: 0.875rem;
+	background-color: #000;
+	color: #fff;
+	font-weight: 400;
+
+	&__inner {
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+	&__list {
+		display: flex;
+		justify-content: center;
+
+		& > * + * {
+			margin-left: 1.5rem;
+		}
+	}
+
+	a {
+		color: #fff;
+		&:hover {
+			color: $cBlue;
+		}
+	}
+}
+
+.app-store {
+	img {
+		height:40px;
+	}
+}
+
+
+.FAQ {
+	background-color: $cYellowLight;
+
+	h2 {
+		text-align: center;
+	}
+
+	&__question {
+		font-weight: bold;
+	}
+
+	&__inner {
+		max-width: 45.375rem;
+		margin: 0 auto;
+		padding: 4rem 1rem;
+	}
+
+	&__list {
+		margin-top: 2rem;
+		padding-top: 2rem;
+		border-top: 1px solid $cPink;
+
+		& > * + * {
+			margin-top: 1.5rem;
+		}
+	}
+
+	&__list-item {
+		& > * + * {
+			margin-top: 0.25rem;
+		}
+	}
+	&__sub-list {
+		margin: 1rem 0; 
+		font-weight: 400;
+
+		& > * + * {
+			margin-top: 0.25rem;
+		}
+	}
+}
