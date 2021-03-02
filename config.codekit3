@@ -17,6 +17,30 @@
 		"oAP": "/CNAME",
 		"oF": 0
 		},
+	"/coupons/december-2020.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/coupons/december-2020.pdf",
+		"oF": 0
+		},
+	"/coupons/february-2021.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/coupons/february-2021.pdf",
+		"oF": 0
+		},
+	"/coupons/january-2021.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/coupons/january-2021.pdf",
+		"oF": 0
+		},
 	"/coupons/november-2020.pdf": {
 		"cB": 0,
 		"ft": 8192,
