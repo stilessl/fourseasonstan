@@ -458,9 +458,6 @@ h2 {
     margin-left: 2rem;
   }
 }
-.equipment__description {
-  width: 75%;
-}
 .equipment__description > * + * {
   margin-top: 0.5rem;
 }
